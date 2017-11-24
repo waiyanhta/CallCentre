@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Call Centre"
+               android:id="@+id/callcentre"
+                android:icon="@drawable/ic_call_center" />
+    <item
+        android:id="@+id/news"
+        android:title="News"
+        android:icon="@drawable/ic_newspaper"/>
+    <item android:title="Market Data"
+            android:id="@+id/marketdata"
+            android:icon="@drawable/ic_analytics"
+        />
+</menu>

@@ -92,4 +92,15 @@
         "when a user tries to pick up one of cards.\n\n"
     </string>
     <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="fuel_price_label">Various Fuel Cost</string>
+    <string name="fuel1">Diesel</string>
+    <string name="fuel2">Premium Diesel</string>
+    <string name="fuel3">Octane Ron90</string>
+    <string name="fuel4">Octane Ron92</string>
+    <string name="fuel5">Octane Ron95</string>
+
 </resources>

@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#00303f9f</color>
+    <color name="colorPrimaryDark">#c81e2f99</color>
     <color name="colorAccent">#FF4081</color>
     <color name="colorWhite">#ffffff</color>
     <color name="colorTransparent">#7b000000</color>
+    <color name="colorHighlight">#66ffe6e6</color>
+    <color name="navigation_drawer_background">#155c5c5c</color>
+    <color name="black">#000</color>
+    <color name="white">#fff</color>
+    <color name="skyblue">#80cbc4</color>
+    <color name="green">#00e676</color>
+    <color name="yellow">#ffb74d</color>
 </resources>

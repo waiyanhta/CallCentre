@@ -37,7 +37,9 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintVertical_bias="0.138" />
+        app:layout_constraintVertical_bias="0.138"
+
+        />
 </android.support.constraint.ConstraintLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -45,17 +47,20 @@
         android:orientation="vertical"
         android:padding="16dp"
         >
+
         <TextView
             android:id="@+id/about_textview_ui"
             android:layout_width="wrap_content"
-            android:padding="16dp"
             android:layout_height="200dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/button"
+            android:layout_marginTop="200dp"
+            android:layout_weight="1"
+            android:padding="16dp"
+            android:scrollbarAlwaysDrawVerticalTrack="true"
             android:text="@string/dummy_text"
             android:textColor="@color/colorWhite"
-            android:layout_below="@+id/button"
-            android:layout_alignParentStart="true"
-            android:layout_marginTop="200dp"
-            android:layout_weight="1"/>
+            />
         <Button
             android:id="@+id/button"
             android:layout_width="match_parent"
@@ -63,7 +68,8 @@
             android:text="Take a Tour"
             tools:layout_editor_absoluteX="8dp"
             tools:layout_editor_absoluteY="483dp"
-            android:visibility="gone"/>
+            android:visibility="gone"
+        />
     </LinearLayout>
 
 </RelativeLayout>

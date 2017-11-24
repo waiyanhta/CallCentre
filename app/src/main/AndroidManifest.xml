@@ -4,9 +4,9 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/logo_drawer"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/logo_drawer"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".Main">
@@ -20,7 +20,10 @@
         <activity
             android:name=".News_Activity"
             android:label="@string/title_activity_news_"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Login_Activity" />
+        <activity android:name=".Menu" />
+        <activity android:name=".CallCentre"></activity>
     </application>
 
 </manifest>

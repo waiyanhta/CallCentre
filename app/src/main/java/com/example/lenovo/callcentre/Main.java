@@ -21,6 +21,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.VideoView;
 
+import com.example.lenovo.callcentre.Fragment.CallCentreList;
+
 public class Main extends AppCompatActivity implements View.OnClickListener {
     VideoView videoView;
     Handler animationHandler;
@@ -39,7 +41,7 @@ public class Main extends AppCompatActivity implements View.OnClickListener {
         about_textview=(TextView)findViewById(R.id.about_textview_ui);
         button=(Button)findViewById(R.id.button);
         setVideoView();
-        getSupportActionBar().hide();
+      //  getSupportActionBar().hide();
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                     WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
@@ -118,16 +120,14 @@ public class Main extends AppCompatActivity implements View.OnClickListener {
     protected void onDestroy() {
         super.onDestroy();
         animationHandler.removeCallbacks(scroll);
-
     }
-
 
     @Override
     public void onClick(View v) {
         switch (v.getId())
         {
             case R.id.button:{
-                Intent newintent=new Intent(this,News_Activity.class);
+                Intent newintent=new Intent(this,CallCentre.class);
                 startActivity(newintent);
             }
         }
